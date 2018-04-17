@@ -56,6 +56,13 @@
                                 <rect key="frame" x="235" y="99" width="124" height="30"/>
                                 <state key="normal" title="Search"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4C-mm-b3s">
+                                <rect key="frame" x="129" y="617" width="116" height="30"/>
+                                <state key="normal" title="See in map app"/>
+                                <connections>
+                                    <action selector="seeinMapApp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j0s-Iw-bsY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -71,7 +78,10 @@
                             <constraint firstItem="Bjx-z4-cwV" firstAttribute="leading" secondItem="0Eq-No-pac" secondAttribute="leading" id="NlJ-d6-aA1"/>
                             <constraint firstItem="1UV-Q2-j4p" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="WgV-lg-63w"/>
                             <constraint firstItem="6pN-eA-T9F" firstAttribute="trailing" secondItem="Z85-b3-aUA" secondAttribute="trailing" id="Wii-6W-R5B"/>
+                            <constraint firstItem="V4C-mm-b3s" firstAttribute="centerX" secondItem="1UV-Q2-j4p" secondAttribute="centerX" id="Yo8-jR-SVP"/>
                             <constraint firstItem="6pN-eA-T9F" firstAttribute="baseline" secondItem="Hzh-vZ-A57" secondAttribute="baseline" id="cR8-cf-MHp"/>
+                            <constraint firstAttribute="bottom" secondItem="V4C-mm-b3s" secondAttribute="bottom" constant="20" symbolic="YES" id="cyh-lu-5D2"/>
+                            <constraint firstItem="V4C-mm-b3s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="129" id="e1f-SD-wMV"/>
                             <constraint firstItem="Z85-b3-aUA" firstAttribute="top" secondItem="6pN-eA-T9F" secondAttribute="bottom" constant="8" symbolic="YES" id="o16-Lz-FGH"/>
                             <constraint firstItem="Z85-b3-aUA" firstAttribute="baseline" secondItem="Bjx-z4-cwV" secondAttribute="baseline" id="tTd-id-zPj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1UV-Q2-j4p" secondAttribute="bottom" constant="100" id="wko-ZW-4KX"/>
