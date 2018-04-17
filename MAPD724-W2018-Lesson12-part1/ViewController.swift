@@ -22,6 +22,12 @@ class ViewController: UIViewController {
         let span = MKCoordinateSpan(latitudeDelta: delta, longitudeDelta: delta)
         let reg = MKCoordinateRegionMake(location, span)
         self.map.region = reg
+        
+        let ann = MKPointAnnotation()
+        ann.coordinate = self.mapLocation
+        ann.title = "Toronto"
+        ann.subtitle = "A Place that's really cool"
+        self.map.addAnnotation(ann)
     }
 
 
